@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from .endpoints import auth, users, tax_forms, documents, payments
+from endpoints import auth, users, tax_forms, documents, payments
 
 api_router = APIRouter()
 
