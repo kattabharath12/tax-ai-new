@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
-from ...core.database import get_db
-from ...models.tax_form import TaxForm
+from core.database import get_db
+from models.tax_form import TaxForm
 
 router = APIRouter()
 
