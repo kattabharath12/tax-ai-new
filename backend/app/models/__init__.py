@@ -1,5 +1,5 @@
 from models.user import User
-from tax_form import TaxForm
+from .tax_form import TaxForm
 from document import Document
 from payment import Payment
 
