@@ -44,8 +44,8 @@ app = FastAPI(
     title="Tax Filing API",
     description="Production-ready tax filing application API",
     version="1.0.0",
-    docs_url="/docs" if settings.DEBUG else None,
-    redoc_url="/redoc" if settings.DEBUG else None,
+    docs_url="/docs",
+    redoc_url="/redoc",
 )
 
 # Security middleware
